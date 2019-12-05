@@ -16,6 +16,8 @@ Using CGAN we have generated Realistic Faces from sketches, facades to buildings
 	* scapes2city_generator.h5
 	* sketch2faces_discriminator.h5
 	* sketch2faces_generator.h5
+
+
 * Run the webapp/app.py file to start the flask app to run your models and provide input and generate output using a GUI.
 
 
@@ -23,3 +25,4 @@ Using CGAN we have generated Realistic Faces from sketches, facades to buildings
 
 * sketch.py was used to convert images to sketches to augment the training data.
 * merge.py was used to merge the ground truth and the input image, as expected by the Neural Network.
+
